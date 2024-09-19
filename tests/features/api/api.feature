@@ -15,7 +15,7 @@ Then new user should be created with new credentials
 
 @api_PUT
 Scenario: To verify that user is able to update the data
-Given user sets up the API context
+Given user sets up
 When user updates the data 
 Then data should be updated as per the users need
 
