@@ -1,0 +1,9 @@
+{
+    "default": {
+      "paths": ["tests/features/"],
+      "require": ["tests/steps/*.js",
+    "tests/support/hooks.js"],
+      "format": ["json:reports/cucumber_report.json"]
+    }
+  }
+  

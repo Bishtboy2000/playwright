@@ -1,0 +1,131 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-functionality;verify-user-is-able-to-login-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify user is able to login using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 181957400
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 456016900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "tests\\steps\\login.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15111464499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "location": "tests\\steps\\login.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 863886700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter the password as \"admin123\"",
+            "match": {
+              "location": "tests\\steps\\login.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3011691300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on the login button",
+            "match": {
+              "location": "tests\\steps\\login.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1806854400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should logged in successfully",
+            "match": {
+              "location": "tests\\steps\\login.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 887158099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "logout from the application",
+            "match": {
+              "location": "tests\\steps\\login.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2401489699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 504499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "homepage functionality",
+    "tags": [],
+    "uri": "tests\\features\\ui\\homepage.feature"
+  }
+]
