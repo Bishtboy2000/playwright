@@ -16,7 +16,7 @@ Then new user should be created
 @api_PUT
 Scenario: To verify that user is able to update the data
 Given user sets up the API context
-When user updates the data
+When user updates the data but not all of
 Then data should be updated
 
 @api_DELETE
