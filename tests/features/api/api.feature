@@ -11,7 +11,7 @@ When user fetches the details
 Scenario: To verify that user is able to create a new record using API
 Given user sets up the API context
 When I creates a new user
-Then new user should be created
+Then new user should be created with new credentials
 
 @api_PUT
 Scenario: To verify that user is able to update the data
