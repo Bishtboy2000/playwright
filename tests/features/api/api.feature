@@ -17,7 +17,7 @@ Then new user should be created with new credentials
 Scenario: To verify that user is able to update the data
 Given user sets up the API context
 When user updates the data 
-Then data should be updated as per the users need
+Then data should be updated as per the 
 
 @api_DELETE
 Scenario: To verify that user is able to delete the data
